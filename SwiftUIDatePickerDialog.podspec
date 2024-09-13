@@ -20,4 +20,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift'
   s.resources    = [ 'Sources/**/*.xib', 'Images/**/*.png' ]
 
+  # Add the dependency on SwiftUIGenericDialog, pointing to the main branch
+  s.dependency 'SwiftUIGenericDialog', :git => 'https://github.com/housecode/swiftui-generic-dialog.git', :branch => 'main'
 end
