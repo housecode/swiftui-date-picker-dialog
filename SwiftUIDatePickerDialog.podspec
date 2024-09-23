@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'SwiftUIDatePickerDialog'
-  s.version      = '1.0.1'
+  s.version      = '1.0.0'
   s.summary      = 'A customizable date picker dialog for SwiftUI'
   s.description  = <<-DESC
                    SwiftUIDatePickerDialog provides a simple and customizable 
